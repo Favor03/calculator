@@ -4,15 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table>  
+    <table id="Calculator">  
          
-        <tr><td>1</td><td>2</td><td>3</td></tr>  
-        <tr><td>4</td><td>5</td><td>6</td></tr>  
-        <tr><td>7</td><td>8</td><td>9</td></tr>  
-        <tr><td>0</td><td>+</td><td>-</td></tr> 
-        <tr><td>=</td><td>()</td></tr>  
+        <tr>
+            <td colspan="3">
+                <input type="text" id="result">
+            </td>
+        
+            <td><input type="button" value="c"></td>
+        
+        </tr>
+        
+        
+        <tr>
+            <td><input type="button" value="1"></td>
+            <td><input type="button" value="2"></td>
+            <td><input type="button" value="3"></td>
+            <td><input type="button" value="/"></td>
+        
+        </tr>  
+
+        <tr>
+            <td><input type="button" value="4"></td>
+            <td><input type="button" value="5"></td>
+            <td><input type="button" value="6"></td>
+            <td><input type="button" value="*"></td>
+        </tr>  
+
+        <tr>
+            <td><input type="button" value="7"></td>
+            <td><input type="button" value="8"></td>
+            <td><input type="button" value="9"></td>
+            <td><input type="button" value="-"></td>
+        </tr> 
+
+        <tr>
+            <td><input type="button" value="0"></td>
+            <td><input type="button" value="."></td>
+            <td><input type="button" value="="></td>
+            <td><input type="button" value="+"></td>
+        </tr>  
         </table>  
 </body>
 </html>
